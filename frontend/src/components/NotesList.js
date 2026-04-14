@@ -3,7 +3,7 @@ import { FaPlus, FaEdit, FaTrash, FaStickyNote } from "react-icons/fa";
 
 export default function NotesList({ notes, setSelected, fetchNotes, selected }) {
   const deleteNote = async (id) => {
-    await axios.delete(`http://localhost:5000/notes/${id}`);
+    await axios.delete(`https://markdown-notes-app-ilfw.onrender.com/notes/${id}`);
     fetchNotes();
   };
 

@@ -14,7 +14,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   const fetchNotes = async () => {
-    const res = await axios.get("http://localhost:5000/notes");
+    const res = await axios.get("https://markdown-notes-app-ilfw.onrender.com/notes");
     setNotes(res.data);
   };
 

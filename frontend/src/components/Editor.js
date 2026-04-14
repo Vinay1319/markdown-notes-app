@@ -21,12 +21,12 @@ export default function Editor({
     setError("");
 
     if (selected) {
-      await axios.put(`http://localhost:5000/notes/${selected.id}`, {
+      await axios.put(`https://markdown-notes-app-ilfw.onrender.com/notes/${selected.id}`, {
         title,
         content,
       });
     } else {
-      await axios.post("http://localhost:5000/notes", {
+      await axios.post("https://markdown-notes-app-ilfw.onrender.com/notes", {
         title,
         content,
       });
