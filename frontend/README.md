@@ -81,11 +81,6 @@ No environment variables required for this project.
 * DELETE /notes/:id → Delete note
 
 
-## 🎥 Demo
-
-(Add your demo video link here)
-
-
 ## Key Decisions
 
 * Used SQLite for quick setup and zero configuration

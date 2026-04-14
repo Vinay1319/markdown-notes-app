@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FaPen } from "react-icons/fa";
 
 export default function Editor({
